@@ -2,12 +2,11 @@
                Prueba de Diagnostico - DESIS
 ================================================================================
 
-DESCRIPCIÓN:
-Sistema web para registro de productos con validaciones en cliente y servidor.
 
 ================================================================================
 REQUISITOS PREVIOS:
 ================================================================================
+
 - PHP 8.5 o superior (necesario tenerlo agregado al PATH de nuestra maquina)
 - PostgreSQL 17+ o superior
 - Se recomienta utilizar alguna herramienta de interfaz grafica para gestionar la db como Dbeaver o PgAdmin
@@ -51,11 +50,11 @@ INSTALACIÓN:
 2. CONFIGURAR ARCHIVO config.php
 
    Abrir php/config.php y ajustar:
-   - DB_TYPE: 'postgresql' o 'mysql'
+
    - DB_HOST: localhost (o IP del servidor)
    - DB_USER: usuario de BD
    - DB_PASS: contraseña
-   - DB_PORT: puerto (5432 PostgreSQL, 3306 MySQL)
+   - DB_PORT: puerto (5432 PostgreSQL)
 
 
 3. INICIAR SERVIDOR
