@@ -187,9 +187,7 @@ function validarDescripcion() {
 
 // ENVÍO AJAX
 function enviarFormularioAJAX() {
-    const form = document.getElementById('productForm');
-    const formData = new FormData(form);
-    
+    const form = document.getElementById('productForm');    
     // Convertir checkboxes a array
     const materiales = document.querySelectorAll('input[name="material"]:checked');
     const materialesArray = Array.from(materiales).map(m => m.value);
